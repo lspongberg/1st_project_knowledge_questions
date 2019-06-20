@@ -6,11 +6,27 @@ body {
     height: 70px;
     width: 100%;
 }
+.logo{
+    width: 70px;
+    height: inherit;
+}
 
+.banner-text {
+    text-align: center;
+    background-color: #FFED85;
+    height: 70px;
+    width: 400px;
+    color: black;
+    position: absolute;
+    top: 0px;
+    left: 15%;
+    display: inline-block;
+    font-family: 'Indie Flower', cursive;
+    border-radius: 8px;
+}
 .nav-list {
     float: right; 
 }
-
 .list-item {
     height:20px;
     width: 55px;
@@ -19,29 +35,78 @@ body {
     border: 3px solid black;
     border-radius: 25px;
     margin-right: 10px;
-    background-color: #11a9f0;
-    }
-    .banner-img {
+    background-color: #FFFFC2;
+}
+.banner-img {
         height: 500px;
         width: 100%;
-        position: absolute;
-        top: 200px;
-        
-    }
-    .banner h1 {
-        margin-top: 40px;
-        }
-    .banner-text {
-        text-align: center;
-        background-color: #B800B8;
+}
+  
+    .main-section {
         height: 250px;
-        width: 400px;
-        color: black;
-        position: absolute;
-        top: 0px;
-        left: 42%;
+        width: 100%;
+        }
+    .col {
+            padding: 10px;
+            height: 500px;
+            width: 40%;
+            border: 3px solid black;
+            float: left;
+            margin-left: 10px;
+        }
+    .main-img {
+        height: 100%;
+        width: 100%;
+    }
+    .div {
+        display: block;
+    }
+    .p {
+        font-size: 5em;
+    }
+    
+    
+    
+    /* ************** End of Home Styles************ */
+
+    /************footer************/
+
+.footer {
+    display: inline-block;
+    height: 500px;
+    width: 100%;
+    margin-left: 50px;
+    background-color: blueviolet;
+    /* position: relative; */
+    top: 
+    }
+.footer_info {
+        position: relative;
         display: inline-block;
+        margin-top: 20px;
+        float: right;
+    }
+    .input .social {
+        float: left;
+        width: 30%;
+        text-align: center;
+        top: 1700px;
+        }
+    .social {
         font-size: 2em;
-        font-family: 'Indie Flower', cursive;
-        border-radius: 8px;
+    }
+    .input input, .input button .social a {
+        display: block;
+        margin-top: 25px;
+    }
+.footercol {
+        display: inline-block;
+        height: 150px;
+        width: 30%;
+        position: relative;
+        padding: 20p;
+        margin-top: 200px;
+        margin-left: 10px;
+        float: left;
+        border: 3px solid black;
     }
