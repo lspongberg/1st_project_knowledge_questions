@@ -2,13 +2,33 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+
 .nav-bar {
-    height: 70px;
+    height: 150px;
     width: 100%;
 }
-.logo{
-    width: 70px;
-    height: inherit;
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    background-color: whitesmoke;
+}
+
+.nav-list {
+    float: right;
+}
+
+.list-item {
+    height: 20px;
+    width: 55px;
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.list-item a {
+    text-decoration: none;
 }
 
 .banner-text {
@@ -18,95 +38,209 @@ body {
     width: 400px;
     color: black;
     position: absolute;
-    top: 0px;
-    left: 15%;
+    margin-top: 40px;
+    left: 30%;
     display: inline-block;
     font-family: 'Indie Flower', cursive;
     border-radius: 8px;
+    transform: rotate(-10deg);
 }
-.nav-list {
-    float: right; 
-}
-.list-item {
-    height:20px;
-    width: 55px;
-    list-style-type: none;
-    float: left;
-    border: 3px solid black;
-    border-radius: 25px;
-    margin-right: 10px;
-    background-color: #FFFFC2;
-}
-.banner-img {
-        height: 500px;
-        width: 100%;
-}
-  
-    .main-section {
-        height: 250px;
-        width: 100%;
-        }
-    .col {
-            padding: 10px;
-            height: 500px;
-            width: 40%;
-            border: 3px solid black;
-            float: left;
-            margin-left: 10px;
-        }
-    .main-img {
-        height: 100%;
-        width: 100%;
-    }
-    .div {
-        display: block;
-    }
-    .p {
-        font-size: 5em;
-    }
-    
-    
-    
-    /* ************** End of Home Styles************ */
 
-    /************footer************/
+.banner-img {
+    height: 450px;
+    width: 100%;
+}
+
+.main-section {
+    height: 250px;
+    width: 100%;
+}
+.img-box {
+    height: 150px;
+    width: 300px;
+    padding: 75px;
+}
+.col {
+    padding: 10px;
+    height: 500px;
+    width: 45%;
+    border: 3px solid black;
+    float: left;
+    margin-left: 10px;
+}
+
+.main-img {
+    height: 100%;
+    width: 100%;
+}
+
+.div {
+    display: block;
+}
+
+.p {
+    font-size: 5em;
+}
+
+
+
+/* ************** End of Home Styles************ */
+
+/*************Start of About Styles************/
+.container {
+    height: 400px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+} 
+.columns {
+    width: 44%;
+    border: 3px solid #000000;
+    float: left;
+    padding: 25px 20px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+.col-img {
+    height: 300px;
+    width: 300px;
+    display: block;
+    padding: 10px;
+}
+.col-video {
+    display: block;
+    height: 300px;
+    width: auto;
+    padding: 10px;
+}
+*{
+    margin:0;
+    padding:0;
+  }
+  body{
+    font-family:arial,sans-serif;
+    font-size:100%;
+    margin:3em;
+    background:#666;
+    color:#fff;
+  }
+  h2,p{
+    font-size:100%;
+    font-weight:normal;
+  }
+  *{
+    margin:0;
+    padding:0;
+  }
+  body{
+    font-family:arial,sans-serif;
+    font-size:100%;
+    margin:1em;
+    background:#666;
+    color:#fff;
+  }
+  h2,p{
+    font-size:100%;
+    font-weight:normal;
+  }
+  .container {
+      float: left;
+  }
+  ul,li{
+    list-style:none;
+  }
+  ul{
+    overflow:hidden;
+    padding:3em;
+    }
+  ul li a{
+    text-decoration:none;
+    color:#000;
+    background:#ffc;
+    display:block;
+    height:10em;
+    width:10em;
+    padding:1em;
+    -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+    -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    -moz-transition:-moz-transform .15s linear;
+    -o-transition:-o-transform .15s linear;
+    -webkit-transition:-webkit-transform .15s linear;
+  }
+  ul li{
+    margin:1em;
+    float:left;
+  }
+  ul li h2{
+    font-size:140%;
+    font-weight:bold;
+    padding-bottom:10px;
+  }
+  ul li p{
+    font-family:"Reenie Beanie",arial,sans-serif;
+    font-size:120%;
+  }
+  ul li a{
+    -webkit-transform: rotate(-6deg);
+    -o-transform: rotate(-6deg);
+    -moz-transform:rotate(-6deg);
+  }
+  ul li:nth-child(even) a{
+    -o-transform:rotate(4deg);
+    -webkit-transform:rotate(4deg);
+    -moz-transform:rotate(4deg);
+    position:relative;
+    top:5px;
+    background:#cfc;
+  }
+  ul li:nth-child(3n) a{
+    -o-transform:rotate(-3deg);
+    -webkit-transform:rotate(-3deg);
+    -moz-transform:rotate(-3deg);
+    position:relative;
+    top:-5px;
+    background:#ccf;
+  }
+  ul li:nth-child(5n) a{
+    -o-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -moz-transform:rotate(5deg);
+    position:relative;
+    top:-10px;
+  }
+  ul li a:hover,ul li a:focus{
+    box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    position:relative;
+    z-index:5;
+  }
+  ol{text-align:center;}
+  ol li{display:inline;padding-right:1em;}
+  ol li a{color:#fff;}
+/* ***************Start of Contact Styles ********** */
+.contact-col {
+   float: left;
+    margin-top: 10Spx;
+    margin-left: 30px;
+    margin-bottom: 100px; 
+}
+
+/************footer************/
 
 .footer {
-    display: inline-block;
-    height: 500px;
-    width: 100%;
-    margin-left: 50px;
-    background-color: blueviolet;
-    /* position: relative; */
-    top: 
-    }
-.footer_info {
-        position: relative;
-        display: inline-block;
-        margin-top: 20px;
-        float: right;
-    }
-    .input .social {
-        float: left;
-        width: 30%;
-        text-align: center;
-        top: 1700px;
-        }
-    .social {
-        font-size: 2em;
-    }
-    .input input, .input button .social a {
-        display: block;
-        margin-top: 25px;
-    }
-.footercol {
-        display: inline-block;
-        height: 150px;
-        width: 30%;
-        position: relative;
-        padding: 20p;
-        margin-top: 200px;
-        margin-left: 10px;
-        float: left;
-        border: 3px solid black;
-    }
+    background-color: #C0C0C0;
+    height: 40px;
+    width: 25%;
+    float: right;
+}
+.footer-text {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 100px; 
+}
+
